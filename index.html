@@ -6,6 +6,15 @@
     
 <style type="text/css">
 
+    #bordas {
+        /*
+        border: 4px outset rgb(17, 0, 255);*/
+        border-color: blue yellow;
+        border-width: 4px 6px;
+        border-style: groove ;
+        border-top: hidden;
+    }
+
     .titulos {
         color: rgb(0, 95, 150);
     }
@@ -21,22 +30,23 @@
 <body background="imagens/fundo.png">
 
     <div align="center">
-        <div>
+        <div id="bordas">
             <div align="center"><img src="imagens/logo-creative.png"></div>
             <div align="center">
                 <a href="index.html">Home</a> |
                 <a href="quem-somos.html">Quem Somos</a> |
-                <a href="contato.html">Contato</a> 
+                <a href="contato.html">Contato</a>
+                <br> 
+                <br>
             </div>
         </div>
-        <br>
 
         <div>
             <img src="imagens/capa-creative.png">
         </div>
 
         <div>
-            <h2 class="titulos">Sobre a Empresa</h2>
+            <h2 class="titulos"><u>Sobre a Empresa</u></h2>
             <p>
                 <strong>Ipsum</strong> is <em>simply</em> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
