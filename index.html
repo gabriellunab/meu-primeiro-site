@@ -1,67 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
     <title>Creative IT - Pagina Principal</title>
     <meta charset="utf-8">
     
-<style type="text/css">
-
-    #bordas {
-        /*
-        border: 4px outset rgb(17, 0, 255);*/
-        border-color: blue yellow;
-        border-width: 4px 6px;
-        border-style: groove ;
-        border-top: hidden;
-    }
-
-    .titulos {
-        color: rgb(0, 95, 150);
-    }
-
-    strong {
-        color: grey;
-    }
-
-</style>
+    <link rel="stylesheet" type="text/css"
+    href="estilo.css">
 
 </head>
 
-<body background="imagens/fundo.png">
+<body>
+    <header>
+        <div><img src="imagens/logo-creative.png" alt="Logo Creative IT"></div>
+        <br>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="quem-somos.html">Quem Somos</a> |
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
 
-    <div align="center">
-        <div id="bordas">
-            <div align="center"><img src="imagens/logo-creative.png"></div>
-            <div align="center">
-                <a href="index.html">Home</a> |
-                <a href="quem-somos.html">Quem Somos</a> |
-                <a href="contato.html">Contato</a>
-                <br> 
-                <br>
-            </div>
-        </div>
+    <main>
+        <section>
+            <img class="capa-imagem" src="imagens/capa-creative.png" alt="Capa Creative IT">
+        </section>
 
-        <div>
-            <img src="imagens/capa-creative.png">
-        </div>
-
-        <div>
-            <h2 class="titulos"><u>Sobre a Empresa</u></h2>
+        <section>
+            <h2 class="sublinhado">Sobre a Empresa</h2>
             <p>
-                <strong>Ipsum</strong> is <em>simply</em> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                A <strong>Creative IT</strong> é <em>pioneira</em> no desenvolvimento de soluções tecnológicas inovadoras para o mercado moderno. Fundada com o objetivo de simplificar a transformação digital, nossa equipe de especialistas dedica-se a criar estratégias personalizadas que impulsionam o crescimento de nossos parceiros. Desde consultoria em infraestrutura até o desenvolvimento de softwares sob medida, estamos prontos para atender qualquer desafio.
             </p>
 
             <p>
-                <strong>Ipsum</strong> is <em>simply</em> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                Nossa <strong>missão</strong> é <em>conectar</em> pessoas e negócios através da tecnologia de ponta. Acreditamos que a criatividade é a chave para resolver problemas complexos de TI, oferecendo suporte ágil e eficiente. Na Creative IT, não apenas entregamos serviços, mas construímos o futuro digital da sua empresa com segurança, robustez e inovação constante.
             </p>  
-        </div>
+        </section>
+    </main>
 
-        <div align="center">
-            <h4>Todos os Direitos Reservados!</h4>
-        </div>
-
-    </div>
-
+    <footer>
+        <h4>Todos os Direitos Reservados!</h4>
+    </footer>
 
 </body>
 </html>

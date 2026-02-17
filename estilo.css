@@ -1,0 +1,37 @@
+    body {
+        background: #DCDCDC no-repeat fixed center;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        border-color: blue orange;
+        border-width: 4px 6px;
+        border-style: groove;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .capa-imagem {
+        border: 5px solid rgb(0, 95, 150);
+        border-radius: 10px; 
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        color: rgb(0, 95, 150);
+    }
+
+    .sublinhado {
+        text-decoration: underline;
+    }
+
+    strong {
+        color: grey;
+    }
+
+    ol {
+        display: inline-block;
+        text-align: left;
+    }
