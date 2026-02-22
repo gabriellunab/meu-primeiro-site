@@ -1,59 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
     <title>Creative IT - Contato</title>
     <meta charset="utf-8">
+    
+    <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 
-<body background="imagens/fundo2.png">
+<body>
+    <header>
+        <div><img src="imagens/logo-creative.png" alt="Logo Creative IT"></div>
+        <br>
+        <nav>
+            <a href="index.html">HOME</a> |
+            <a href="quem-somos.html">QUEM SOMOS</a> |
+            <a href="contato.html">CONTATO</a>
+        </nav>
+    </header>
 
-    <table border="0" width="900" align="center">
+    <main class="conteudo-principal">
+        
+        <section class="coluna-textos" style="width: 100%; align-items: center; text-align: center;">
+            <h2 class="sublinhado">Entre em Contato</h2>
+            <p>
+                Para se tornar nosso parceiro ou cliente, entre em contato nos campos abaixos e entraremos em contato o mais breve possivel!
+            </p>
 
-        <tr>
-            <td height="89"><img src="imagens/logo-creative.png"></td>
-            <td align="right">
-                <a href="index.html">Home</a> |
-                <a href="quem-somos.html">Quem Somos</a> |
-                <a href="contato.html">Contato</a> 
-            </td>
-        </tr>
+            <br>
 
-        <tr>
-            <td colspan="2">
+            <form class="formulario-contato">
+                <label>Seu e-mail:</label> <br>
+                <input type="text" name="email"><br><br>
 
-                <h2>Entre em Contato</h2>
-                <p>
-                    Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                </p>
+                <label>Assunto:</label> <br>
+                <input type="text" name="assunto"><br><br>
 
-                <hr>
+                <label>Descrição:</label> <br>
+                <textarea name="descricao" rows="5" cols="40"></textarea><br><br>
 
-                <form>
+                <input type="submit" value="Enviar" class="botao-enviar">
+            </form>
+        </section>
 
-                    Seu e-mail: <br>
-                    <input type="text" name="email"><br>
+    </main>
 
-                    Assunto: <br>
-                    <input type="text" name="assunto"><br>
-
-                    Descrição: <br>
-                    <textarea></textarea><br>
-
-                    <input type="submit" value="Enviar">
-
-                </form>
-
-            </td>
-        </tr>
-        <tr>
-            <td align="center" colspan="2">
-                <h4>Todos os Direitos Reservados!</h4>
-            </td>
-        </tr>
-
-    </table>
-
+    <footer>
+        <h4>Todos os Direitos Reservados!</h4>
+    </footer>
 
 </body>
 </html>

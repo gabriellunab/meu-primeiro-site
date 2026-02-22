@@ -10,6 +10,7 @@
         border-style: groove;
         border-radius: 10px;
         padding: 15px;
+        margin-top: 10px;
         margin-bottom: 20px;
     }
 
@@ -17,6 +18,51 @@
         border: 5px solid rgb(0, 95, 150);
         border-radius: 10px; 
         margin-bottom: 20px;
+        float: left;
+    }
+
+    .conteudo-principal {
+        display: flex; /* Coloca a imagem e a coluna de textos lado a lado */
+        gap: 30px; /* Cria um espaço entre a imagem e os textos */
+        align-items: stretch; /* Alinha tudo pelo topo */
+        padding: 20px;
+        text-align: left; /* Fica melhor para ler o texto do que centralizado */
+    }
+
+    .coluna-textos {
+        display: flex;
+        flex-direction: column; /* Garante que o Sobre a Empresa fique em cima dos Parceiros */
+    }
+
+    .capa-imagem {
+        border: 5px solid rgb(0, 95, 150);
+        border-radius: 10px; 
+        /* O float: left foi removido daqui! */
+        max-width: 100%; /* Evita que a imagem quebre o layout */
+    }
+
+    .coluna-imagem {
+        flex-shrink: 0; 
+        /* Opcional: se quiser garantir um tamanho exato, pode adicionar um width aqui, ex: width: 450px; */
+    }
+
+    .parceiros {
+        border: 5px solid rgb(0, 95, 150);
+        border-radius: 10px; 
+        padding: 15px;
+        text-align: center;
+        margin-top: auto;
+    }
+
+    .lista-parceiros {
+        display: flex; /* Coloca os logos lado a lado */
+        justify-content: space-around; /* Espalha os logos com espaços iguais entre eles */
+        align-items: center; /* Centraliza os logos verticalmente */
+        margin-top: 15px;
+    }
+
+    .lista-parceiros img {
+        max-width: 100px; /* Ajuste esse valor conforme o tamanho real das suas imagens */
     }
 
     h2 {
@@ -25,6 +71,7 @@
 
     .sublinhado {
         text-decoration: underline;
+        text-align: center;
     }
 
     strong {
@@ -34,4 +81,47 @@
     ol {
         display: inline-block;
         text-align: left;
+    }
+
+    .formulario-contato {
+        background-color: white;
+        border: 5px solid rgb(0, 95, 150);
+        border-radius: 10px;
+        padding: 30px;
+        margin-top: 20px;
+        width: 100%;
+        max-width: 500px; /* Evita que o formulário fique gigante em telas grandes */
+        text-align: left;
+    }
+
+    .formulario-contato label {
+        color: rgb(0, 95, 150);
+        font-weight: bold;
+    }
+
+    .formulario-contato input[type="text"],
+    .formulario-contato textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* Garante que o padding não quebre a largura */
+        font-family: Arial, sans-serif;
+    }
+
+    .botao-enviar {
+        background-color: rgb(0, 95, 150);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .botao-enviar:hover {
+        background-color: orange;
     }
