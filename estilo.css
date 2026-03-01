@@ -46,18 +46,23 @@
     }
 
     .parceiros {
-        border: 5px solid rgb(0, 95, 150);
-        border-radius: 10px; 
         padding: 15px;
         text-align: center;
-        margin-top: auto;
     }
 
     .lista-parceiros {
-        display: flex; /* Coloca os logos lado a lado */
-        justify-content: space-around; /* Espalha os logos com espaços iguais entre eles */
-        align-items: center; /* Centraliza os logos verticalmente */
-        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 5px solid rgb(0, 95, 150);
+        border-radius: 10px;
+        padding: 30px;
+    }
+
+    .grupo-imagens {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
     }
 
     .lista-parceiros img {
