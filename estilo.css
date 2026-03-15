@@ -12,6 +12,7 @@
         padding: 15px;
         margin-top: 10px;
         margin-bottom: 20px;
+        background-color: white;
     }
 
     .capa-imagem {
@@ -57,6 +58,7 @@
         border: 5px solid rgb(0, 95, 150);
         border-radius: 10px;
         padding: 30px;
+        background-color: white;
     }
 
     .grupo-imagens {
@@ -72,6 +74,15 @@
     h2 {
         color: rgb(0, 95, 150);
     }
+
+    a {
+        color: rgb(0, 95, 150);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #b8ce14;
+    }   
 
     h3 {
         display: inline-block;
