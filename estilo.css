@@ -22,7 +22,6 @@
     }
 
     .conteudo-principal {
-        /*display: flex; /* Coloca a imagem e a coluna de textos lado a lado */
         gap: 30px; /* Cria um espaço entre a imagem e os textos */
         align-items: stretch; /* Alinha tudo pelo topo */
         padding: 20px;
@@ -32,6 +31,7 @@
     .coluna-textos {
         display: flex;
         flex-direction: column; /* Garante que o Sobre a Empresa fique em cima dos Parceiros */
+        flex: 1;
     }
 
     .capa-imagem {
@@ -145,4 +145,10 @@
 
     .botao-enviar:hover {
         background-color: orange;
+    }
+
+    .container-sobre {
+       display: flex;
+       align-items: flex-start;
+       gap: 30px;
     }
